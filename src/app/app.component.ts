@@ -4,7 +4,7 @@ import { CameraComponent } from './Components/camera/camera.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, CameraComponent],
+  imports: [ CameraComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
